@@ -1,0 +1,35 @@
+body{
+
+    --glowny-kolor: rgb(71, 212, 71);
+}
+
+#par
+{
+    border: 5px var(--glowny-kolor);
+    font-size: 30px;
+}
+
+#tytul
+{
+    background-color: var(--glowny-kolor);
+}
+.numer
+{
+    background-color: var(--glowny-kolor);
+}
+
+p
+{
+    color: var(--glowny-kolor);
+    
+}
+
+
+
+
+
+
+/*
+jezeli wybierzemy element body, to zmienne bedą dostępne tylko w 
+danym selektorze
+jak utworzymy naszą zmienną to mozemy jej uzywac w całym selektorze

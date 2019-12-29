@@ -1,0 +1,89 @@
+body
+{
+    background-color: burlywood;
+    background-image: url("zdjecia/logo.png") ;
+
+    background-repeat: repeat-y;
+    
+    background-size: 100px 100px;
+
+    background-position: center;
+} 
+
+article
+{
+    position:relative;
+}
+#par
+{
+    position: relative;
+    top: 50px;
+    right: 100px;
+    left: 433px;
+    bottom: 40px;
+    width: 240px;
+    border: 10px solid red;
+    border-style: ridge;
+    padding : 30px 10px;
+
+    position: fixed;
+    position: absolute;
+    position : sticky;
+
+    margin : 50px;
+
+    height : 20px;
+
+    overflow: scroll;
+
+    overflow: auto;
+    overflow-x: scroll;
+}
+
+#par:hover
+{
+    background-color: rosybrown;
+
+    color: tomato;
+
+}
+a
+{
+    color:red;
+}
+
+a:visited
+{
+    color:green;
+}
+
+a:active
+{
+    color: indigo;
+}
+
+#par p::first-letter
+{
+    background-color: lawngreen;
+}
+
+
+/*
+//#par p::first-letter pseudoelement, tylko pierwsza litera
+a:active = aktywny link, nawigacja itp,
+a:visited pseudoklasa, oznacza linki które były juz klikniete
+#par:hover - tak robimy pseudoklase do danego id,pseudoklasa hover sprawia ze style alikują sie jak najade
+ myszką na dany element
+overflow: scroll; - sprawia ze jak cos sie nie zmiesci, to doda suwak i mozna przegladac
+ position : sticky; - jak zaczne zjezdzac w dół, w momencie gdy osiagne górę, to przylgnie do naszej strony
+position: absolute; bedzie sie trzymał pozycji elementu wyżej/ position: fixed; oznacza ze jest przytwierdzony do strony, np prawej krawędzi
+ top- odpychamy nasz element od góry, bottom od dołu
+ width - szerokosc okreslam, height wysokosc
+ w html kazdy element ma swoja wysokosc i szerokosc
+ padding - to przestrzen która odpycha nasz paragraf do wewnątrz, skondensowany, odpycha tekst od ramki
+ pierwszy argument za górę i dół, dwa następne lewo i prawo
+ 4 argumenty - od góry zgodnie z zegarem
+ border - ramka
+ margine - przestrzen która odpycha od zewnątrz, przyjmuje takie wartosci jak padding
+ solid- jednolita ramka
+*/

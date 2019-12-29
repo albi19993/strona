@@ -1,0 +1,42 @@
+#naszheder
+{
+    border: 2px double red;
+    display: flex;
+    flex-direction: column;
+    flex-direction: row-reverse;
+
+    flex-wrap: wrap;
+    flex-wrap: nowrap;
+
+    justify-content: center;
+
+    justify-content: space-around;
+
+    justify-content: space-between;
+    justify-content: space-evenly;
+
+    height: 300px;
+    border: 1px solid red;
+
+    align-items: center;
+    align-items: stretch;
+
+}
+.numer
+{
+    flex-grow: 1;
+    background-color: chocolate;
+}
+
+/*
+   display: flex; układa automatycznie do lewej strony
+    flex-direction: column; - wszystkie elementy od góry do dołu w kolumnie
+flex-direction: row-reverse; - poziomo ale elementy w odwróconej kolejności
+flex-wrap: wrap; - jezeli dany element sie nie miesic przeskoczy na drugi rząd
+ justify-content: center; - nasze elementy zostaną scisniete do wewnątrz
+ justify-content: space-around; - na około kazdego elementu będzie równa ilosc miejsca
+ justify-content: space-between; - zachowuje miejsce miedzy nimi ale przylegają do krawedzi
+  justify-content: space-evenly; - równomiernie rozmiesci nasze elementy
+  align-items: center; - wszystkie elementy wysrodkowane
+   align-items: stretch; - wszystkie zajmują tyle samo co mój kontener(np header itp.)
+flex-grow: 1; - elemnty maja równą szerokosc

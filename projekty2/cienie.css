@@ -1,0 +1,89 @@
+
+#nasztytul
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2em;
+
+    color: rgb(207, 179, 179);
+    
+    text-shadow: 2px 2px 1px midnightblue;
+}
+#par
+{
+    font-size: 2em;
+    padding: 2%;
+
+   border-style: double;
+   border-color: royalblue;
+   border-radius: 56px 10px;
+   background-image: linear-gradient(-90deg, red 20%,green 30%, blue 50%);
+
+   background-image: radial-gradient( red 20%,green 30%, blue 50%);
+
+   background-image: linear-gradient(rgb(91, 91, 177), rgb(146, 129, 129));
+
+   float: right;
+   clear: both;
+}
+
+#test
+{
+    background-color: darkgray;
+    width: 100px;
+    height : 100px;
+    margin: 10px;
+    color:white;
+    padding: 10px;
+
+    box-shadow: 10px 10px 5px black, -5px -6px 4px red;
+    border-radius: 6px;
+    float: left;
+    clear: both;
+}
+
+img
+{
+    float: left;
+}
+.numer
+{
+    width: 25%;
+    float:left;
+    text-align: center;
+
+    border: 1px solid red;
+}
+
+
+/*
+text shadow - cienie tekstów
+box shadow - do bloków
+
+box-shadow: 10px,10px,5px,black;
+pierwszy argument - ile ma byc odsuniety od obiektu w prawo
+2 argument - w dół
+3 argument - jak mocno rozmyty ma byc
+4 argument - jaki kolor
+jeszcze po przecinku mozna podac kolejny cien
+
+text shadow
+
+*/
+/*
+border-radius: 56px 10px; tak robimy zaokrąglone rogi dla boxów
+jezeli wezmę 50% zrobimy koło
+mozemy podac cztery argumenty, wtedy dla kazdego rogu od lewego górnego
+*/
+
+/*
+float - styl który nadajemy elementowi, aby go poruszyc
+float: left - element przylega do lewej strony
+float:right przylega do prawej
+clear: both; - wyczyszczone z prawej i lewej strony, to oznacza ze zaden
+element nie moze do niego przylegać od prawej ani od lewej
+
+text-align: center; - wyrównanie tekstu do środka
+
+*/

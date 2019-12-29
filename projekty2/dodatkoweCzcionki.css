@@ -1,0 +1,29 @@
+#nasztytul
+{
+    font-family: 'Solway', serif;
+    color: darkblue;
+
+    color: #000000;
+
+    
+    color: #ffffff;
+
+    color: #ff0000;
+
+    color: #430000;
+
+    color: rgb(1,255 ,1 );
+
+    color: rgba(red, green, blue, alpha);
+
+    //pierwsze 2 -red, nastepne 2- green, ostatnie 2 - blue
+    // alpha - przyjmuje wartosci od 0 do 1, oznacza przezroczystosc, jak dam 0 to całkiem przezroczysty
+
+
+}
+article
+{
+    color: crimson;
+    font-family: 'Bebas Neue', cursive;
+    font-size: x-large;
+}

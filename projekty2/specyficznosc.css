@@ -1,0 +1,59 @@
+
+body #tytulowe #nasztytul
+{
+    color: orange;
+    background-color: peru;
+}
+
+body #tytulowe #nasztytul
+{
+    color: red;
+    background-color: peru;
+}
+#par
+{
+    font-size: 2em;
+    padding: 2%;
+   border-style: double;
+   border-color: royalblue;
+  
+   background-image: linear-gradient(-90deg, red 20%,green 30%, blue 50%);
+
+   background-image: radial-gradient( red 20%,green 30%, blue 50%);
+
+   background-image: linear-gradient(rgb(91, 91, 177), rgb(146, 129, 129));
+}
+
+
+/*
+inline = 1000, Id = 100, class =10, elements = 1
+0000 - bez selektora
+nasztytul - 100
+body header #nasztytul - 102 bo 100 za id , 2 za 2 elementy
+body header #tytulowe #nasztytul = 202
+*/
+/*
+jednostki absolutne(np piksele) i relatywne
+absolutne:cm,mm,inch,points(pt)
+relatywne: np width = 50% - połowa szerokosci strony
+emy - wielkosc czcionki np 1em - standardowe, 2em zawsze powiekszy 2 razy
+40vh to samo co 40% miejsca na stronie
+vw wiew width - tyle przestrzeni ile dostajemy aby wyświetlic stronę
+*/
+
+/*
+gradienty - niejednolite kolory
+ background-image: linear-gradient(red,green); taka konstrukcja oznacza przejscie z koloru 
+ czerwonego do zielonego
+  background-image: linear-gradient(to right, red,green); = od lewej do prawej,
+background-image: linear-gradient(to right, red,green, blue); - 3 kolory
+background-image: radial-gradient( red 20%,green 30%, blue 50%); - gradient okrągły od srodka do zewnątrz
+
+*/
+
+/*
+// specyficznosc css polega na tym ze mozemy miec wiecej niz 1 selektor który bedzie sie tyczył
+//jakiegos elementu na stronie
+//mamy 4 rodzaje selektorów które mają rozna siłe
+// po 1 te inline, po 2 id, po 3 klasy i psudoklasy, a po 4 elementy
+*/

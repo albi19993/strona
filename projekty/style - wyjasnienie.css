@@ -1,0 +1,13 @@
+h3   // tym sposobem odnosze sie do wszystkich h3 na stronie
+{
+    color:crimson;
+}
+
+#tytul  // a tak do 1 konkretnego
+{
+    color:crimson;
+}
+
+h2{
+    color:darkgreen;
+}

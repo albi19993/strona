@@ -1,0 +1,25 @@
+h1
+{
+color: blue;
+}
+
+body h3
+{
+    color: yellow;
+}
+
+h1.subtytul
+{ 
+
+    color: chocolate;
+}
+
+.subtytul // tak zmieniamy style po klasie
+{
+    color: crimson;
+}
+
+#tytul  // tak zmieniamy style po id
+{
+    color: darkblue;
+}

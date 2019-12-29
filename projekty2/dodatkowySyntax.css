@@ -1,0 +1,36 @@
+#tytul a
+{
+ color: cadetblue;
+}
+
+#tytul > a   
+{
+ color: cadetblue;
+}
+/*
+to będzie zastosowane tylko jesli element a jest bezposrednim dzieckiem elementu
+tytul */
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+/* * = wszystkie elementy ze strony */
+
+#test, #test2
+{
+    background-color: chartreuse;
+    box-shadow: crimson 10px 4px ;
+}
+/*
+uzywając przecinka łącze kilka selektorów, stosuje
+style do kilku elementów
+*/
+.alternatywna
+{
+    background-color: crimson;
+}
+/*
+jak chce jakiemus elementowi dac 2 klasy to w html w divie daje klase
+po spacji, 1 elemnt moze miec kilka klas
+*/
